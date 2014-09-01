@@ -1,0 +1,17 @@
+#!/bin/bash
+# afreplay: a command line single audio file repeater for OSX
+# author: Wonho Lim
+
+#   ARG1: MP3 file to play
+#   ARG2: Times to replay
+
+COUNTER=1
+FILE=$1
+TIMES=$2
+
+while [ $COUNTER -le $TIMES ]
+do
+    echo Playing Times: ${COUNTER} / ${TIMES}
+    afplay $FILE
+    let COUNTER=COUNTER+1 
+done
