@@ -1,0 +1,13 @@
+#!/bin/bash
+# afreplay installation script
+# author: Wonho Lim
+
+# Note: The default path for the installation is /usr/bin/wtools.
+#       Please add this path environment variable or replace this path
+#       with other path you want to install.
+
+PATH_TO_INSTALL="/usr/bin/wtools/"
+
+chmod 775 afreplay &&\
+sudo cp -r afreplay $PATH_TO_INSTALL &&\
+echo Installation completed.
