@@ -16,3 +16,5 @@ How To Use
 ----------
     
     afreplay file_to_listen_to number_of_time_to_repeat
+
+![alt tag](http://wono.me/images/afreplay.gif)
